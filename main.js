@@ -18,7 +18,15 @@
 
 function scrollToSection(sectionId) {
     const section = document.getElementById(sectionId);
-    if (section) {
+    if (sectionId == "contactStart"){
+        section.scrollIntoView({
+            behavior:"smooth",
+            block:"center"
+
+        })
+    
+    
+    } else if (section) {
         section.scrollIntoView({
             behavior: "smooth",
             block: "end"
