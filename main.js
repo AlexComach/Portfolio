@@ -44,11 +44,11 @@ const logo = document.querySelector(".logo");
 toggling.addEventListener("click", () => {
     if (changeStyleSheet.href == "http://127.0.0.1:5500/stylingLightMode.CSS"){
         changeStyleSheet.href = "http://127.0.0.1:5500/stylingDarkMode.CSS";
-        logo.src = "../Images/smiley face dark.png";
+        logo.src = "../Images/dark.png";
         toggling.textContent = "Day";
     } else if (changeStyleSheet.href == "http://127.0.0.1:5500/stylingDarkMode.CSS"){
         changeStyleSheet.href = "http://127.0.0.1:5500/stylingLightMode.CSS";
-        logo.src = "../Images/smiley face.png";
+        logo.src = "../Images/light.png";
         toggling.textContent = "Night";
     }
 
