@@ -21,7 +21,7 @@ function scrollToSection(sectionId) {
     if (sectionId == "contactStart"){
         section.scrollIntoView({
             behavior:"smooth",
-            block:"center"
+            block:"start"
 
         })
     
@@ -29,7 +29,7 @@ function scrollToSection(sectionId) {
     } else if (section) {
         section.scrollIntoView({
             behavior: "smooth",
-            block: "end"
+            block: "start"
         });
     }
 }
@@ -53,6 +53,22 @@ toggling.addEventListener("click", () => {
     }
 
 })
+
+
+const PDFPage = document.querySelector(".PDFPage");
+const CVButton = document.getElementById("CVImage");
+const CVExitButton = document.getElementById("exitCV");
+
+
+CVButton.addEventListener("click", () => {
+    PDFPage.style.display = "flex";
+})
+
+CVExitButton.addEventListener("click", () => {
+    PDFPage.style.display = "none";
+})
+
+
 
 
 

@@ -34,15 +34,19 @@
 
         </nav>
     </div>
+    <div class="PDFPage">
+        <button id="exitCV">X</button>
+        <iframe src="../Images/Alex CV (4).pdf#zoom=75" id="CV_PDF" scrolling="auto"></iframe>
+    </div>
     <div class="margin">
         <div class="h1">
-            <h1 id="h1Content">
+            <h1>
                 Hello, my name is Alex. I am an aspiring <span id="standOutWords"> Software Engineer </span><br>
-                based in London.  <br><br> Learn more about me <a onclick="scrollToSection('aboutStart')" class="customA" id="standOutWords"> here </a>
+                based in London.  <br><br> Learn more about me <a onclick="scrollToSection('aboutStart')" class="customA_h1" id="standOutWords"> here </a>
             </h1>
         </div>
-        <h1 class="titles"> About me</h1>
-        <div class="aboutMe" id="aboutStart">
+        <h1 class="titles" id="aboutStart"> About me</h1>
+        <div class="aboutMe">
             <div class="aboutMeContent" id="aboutMeLanguages">
                 <div>
                     <h3><b>Who am I?</b></h3>
@@ -69,21 +73,15 @@
             </div>
             <div class="aboutMeContent">
                 <div>
-                    <h3><b>Languages</b></h3>
-                    <p>
-                        The current Languages I am familiar with are as follows:
-                        <span id="standOutWords"> HTML </span>,
-                        <span id="standOutWords"> CSS </span>,
-                        <span id="standOutWords"> Javascript </span>,
-                        and <span id="standOutWords"> Python </span>.
-                
-                    </p>
+                    <h3><b>Resume</b></h3>
+                    <a><img src="../Images/Alex CV (4)-1.png" id="CVImage" alt="smile"></a>
+                    <p>or download <a href="../Images/Alex CV (4).pdf" download="Alex CV (4).pdf" id="customA_text">here</a></p>
                 </div>
             </div>
         </div>
-        <h1 class="titles"> Projects</h1>
+        <h1 class="titles" id="projectStart"> Projects</h1>
         
-        <div class="project" id="projectStart">
+        <div class="project" >
             <div class="projectContent">
                 <div>
                     <h3><b>Website Portfolio</b></h3>
@@ -93,7 +91,7 @@
                         <span id="standOutWords"> Javascript </span>.
                         It includes a working form which sends to my email through the use
                         of an API called web3forms. It also has smooth scrolling between sections,
-                        with a minimalistic design. It will be uploaded to my Github.
+                        with a minimalistic design. It will be uploaded to my Github, link <a href="https://github.com/AlexComach/Portfolio" target="_blank" id="customA_text">here</a>.
                     </p>
                 </div>
             </div>
@@ -103,20 +101,20 @@
                     <p>
                         I made this project in <span id="standOutWords"> Python </span> for my online CS50 Python course. It is a Runescape shopping cart, which when an item is inputted,
                         it takes the price from the runescape wiki, adds it to a cart and then shows and stores the receipt in a csv file.
-                        It also has pytest. This will be also on my Github. Here is a demo below:
+                        It also has pytest. This be also on my Github, link <a href="https://github.com/AlexComach/Final-Project-Python" target="_blank" id="customA_text">here</a>. I have also recorded a video demo below: 
                         <br><br>
-                        <iframe src="https://www.youtube.com/embed/i2ielUbGe50?si=aGyLb4KLuoHrAy8P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/i2ielUbGe50?si=aGyLb4KLuoHrAy8P" class="youtubeIframe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </p>
                 </div>
             </div>
             
         </div>
 
-        <h1 class="titles">Education</h1>
-        <div class="education" id="educationStart">
+        <h1 class="titles" id="educationStart">Education</h1>
+        <div class="education">
             <div class="educationContent">
                 <div>
-                    <p><b>Software Development Skills Bootcamp, Just IT</b></p>
+                    <h3><b>Software Development Skills Bootcamp, Just IT</b></h3>
                     <ul>
                         <li>Coffee</li>
                         <li>Tea</li>
@@ -126,7 +124,7 @@
             </div>
             <div class="educationContent">
                 <div>
-                    <p><b>CS50's Introduction to Programming with Python, Harvard</b></p>
+                    <h3><b>CS50's Introduction to Programming with Python, Harvard</b></h3>
                     <ul>
                         <li>Coffee</li>
                         <li>Tea</li>
@@ -136,7 +134,7 @@
             </div>           
             <div class="educationContent">
                 <div>
-                    <p><b>A level Japanese, Maths, Physics</b></p>
+                    <h3><b>A level Japanese, Maths, Physics</b></h3>
                     <ul>
                         <li>Coffee</li>
                         <li>Tea</li>
@@ -147,8 +145,8 @@
         </div>
 
 
-        <h1 class="titles">Contact me</h1>
-        <div class="contact" id="contactStart">
+        <h1 class="titles" id="contactStart">Contact me</h1>
+        <div class="contact" >
             <form id="myForm" class="contact-content" target="_blank"action="https://api.web3forms.com/submit" method="post">
                 <input type="hidden" name="access_key" value="ee0c390a-5453-4668-82da-68240066aacb">
                 <label for="fname">First name</label>
@@ -163,7 +161,7 @@
                     <input type="submit" value="Submit" class = "Button" id="submitButton">
                 </div>
             </form>
-            <h2><b>Or email me at 12acomach@gmail.com</b></h2>
+            <h2 class="h2"><b>Or email me at 12acomach@gmail.com</b></h2>
         </div>
         
         
