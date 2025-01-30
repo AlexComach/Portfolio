@@ -18,15 +18,7 @@
 
 function scrollToSection(sectionId) {
     const section = document.getElementById(sectionId);
-    if (sectionId == "contactStart"){
-        section.scrollIntoView({
-            behavior:"smooth",
-            block:"start"
-
-        })
-    
-    
-    } else if (section) {
+    if (section) {
         section.scrollIntoView({
             behavior: "smooth",
             block: "start"
@@ -40,19 +32,19 @@ const changeStyleSheet = document.getElementById("changeCSS");
 const toggling = document.getElementById("toggling");
 const logo = document.querySelector(".logo");
 
+console.log(changeStyleSheet.getAttribute("href"));
 
 toggling.addEventListener("click", () => {
-    if (changeStyleSheet.href == "http://127.0.0.1:5500/stylingLightMode.CSS"){
-        changeStyleSheet.href = "http://127.0.0.1:5500/stylingDarkMode.CSS";
+    if (changeStyleSheet.getAttribute("href") == "stylingLightMode.CSS") {
+        changeStyleSheet.setAttribute("href", "stylingDarkMode.CSS");
         logo.src = "../Images/dark.png";
         toggling.textContent = "Day";
-    } else if (changeStyleSheet.href == "http://127.0.0.1:5500/stylingDarkMode.CSS"){
-        changeStyleSheet.href = "http://127.0.0.1:5500/stylingLightMode.CSS";
+    } else if (changeStyleSheet.getAttribute("href") == "stylingDarkMode.CSS") {
+        changeStyleSheet.setAttribute("href", "stylingLightMode.CSS");
         logo.src = "../Images/light.png";
         toggling.textContent = "Night";
     }
-
-})
+});
 
 
 const PDFPage = document.querySelector(".PDFPage");
