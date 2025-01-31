@@ -63,6 +63,15 @@ label{
     align-items:left; 
 }
 
+#GitHubIcons{
+    height: 25px;
+    width:25px;
+}
+
+#LightDarkIcons{
+    height: 25px;
+    width:25px;
+}
 
 .aboutMeNav{
     display: flex;

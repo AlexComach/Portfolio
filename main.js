@@ -31,6 +31,8 @@ function scrollToSection(sectionId) {
 const changeStyleSheet = document.getElementById("changeCSS");
 const toggling = document.getElementById("toggling");
 const logo = document.querySelector(".logo");
+const github = document.getElementById("GitHubIcons");
+const lightdark = document.getElementById("LightDarkIcons");
 
 console.log(changeStyleSheet.getAttribute("href"));
 
@@ -38,11 +40,13 @@ toggling.addEventListener("click", () => {
     if (changeStyleSheet.getAttribute("href") == "stylingLightMode.CSS") {
         changeStyleSheet.setAttribute("href", "stylingDarkMode.CSS");
         logo.src = "../Images/dark.png";
-        toggling.textContent = "Day";
+        github.src = "../Images/Github_Invertocat_Light.png";
+        lightdark.src = "../Images/Light Mode.png";
     } else if (changeStyleSheet.getAttribute("href") == "stylingDarkMode.CSS") {
         changeStyleSheet.setAttribute("href", "stylingLightMode.CSS");
         logo.src = "../Images/light.png";
-        toggling.textContent = "Night";
+        github.src = "../Images/Github_Invertocat_Dark.png";
+        lightdark.src = "../Images/Dark Mode.png";
     }
 });
 

@@ -1,7 +1,7 @@
 *{
     font-family:monospace;
     background-color:white;
-    color: black;
+    color: #1B1B1C;
     transition: background-color 0.5s ease, color 0.5s ease;
     /* border: 1px solid black; */
     box-sizing: border-box;
@@ -17,7 +17,7 @@ a{
     text-decoration: none; 
     cursor:pointer;
     background-color:white;
-    color: black;
+    color: #1B1B1C;
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
@@ -62,6 +62,16 @@ label{
     display: flex;
     height: 80px;
     align-items:left; 
+}
+
+#GitHubIcons{
+    height: 25px;
+    width:25px;
+}
+
+#LightDarkIcons{
+    height: 25px;
+    width:25px;
 }
 
 
