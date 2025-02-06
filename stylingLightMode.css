@@ -28,6 +28,7 @@ a{
 #customA_text{
     font-size:1.6vw;
     text-decoration: underline;
+
 }
 
 
@@ -149,7 +150,7 @@ label{
 .h1{
     display: flex;
     width:auto;
-    height:80vh;
+    height:90vh;
     justify-content: center;
     align-items: center;
     font-size: 15px;
@@ -378,9 +379,6 @@ a:hover{
 
 }
 
-#submitButton:hover{
-    background-color:rgb(226, 222, 222);
-}
 
 
 

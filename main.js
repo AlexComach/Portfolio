@@ -71,6 +71,8 @@ CVExitButton.addEventListener("click", () => {
 
 
 
+
+
 // function myFunction(){
     
 //     if (document.body.style.backgroundColor == "white"){
