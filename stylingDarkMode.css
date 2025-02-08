@@ -21,12 +21,25 @@ a{
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-.customA_h1{
-    font-size:30px;
+#customA_h1{
+    font-size: min(40px, 3.5vw);
+    color:white;
+    font-weight: bold;
+    background-color: #47C7FC;
+    border-color: #47C7FC;
+    white-space: pre;
+    border-radius: 5px;
 }
 
+
 #customA_text{
-    font-size:1.6vw;
+    font-size:1.7vw;
+    text-decoration: underline;
+
+}
+
+#customA_text_about{
+    font-size: min(17px, 1.7vw);
     text-decoration: underline;
 }
 
@@ -74,6 +87,7 @@ label{
     width:25px;
 }
 
+
 .aboutMeNav{
     display: flex;
     justify-content:center;
@@ -96,7 +110,7 @@ label{
 .hiddenNav{
     display: none;
     justify-content:center;
-    height: 70px;
+    height: 80px;
     width: 60px;  
     flex-grow:2;
     align-items: center;
@@ -120,7 +134,6 @@ label{
     font-size: 30px;
     height:5vh;
     border-radius: 10px;
-    box-sizing: border-box;
     gap:0px;
 }
 
@@ -152,12 +165,15 @@ label{
     height:90vh;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
+    font-size: min(20px,1.7vw);
     text-align: center;
     padding:20px;
-    
 }
 
+#h1Text{
+    margin-bottom:100px;
+    
+}
 
 
 .aboutMe{
@@ -168,7 +184,7 @@ label{
     height:auto;
     justify-content: center;
     align-items: center;
-    font-size: 1.6vw;
+    font-size: min(17px, 1.6vw);
     text-align: center;
     padding:10px;
     gap:20px;
@@ -183,7 +199,7 @@ label{
     align-items: center;
     justify-content: center;
     padding:10px;
-    box-sizing: border-box;
+
     line-height:1.5;
     
 
@@ -205,16 +221,15 @@ label{
 
 .PDFPage{
     display:none;
-    border:20px;
     position:fixed;
     justify-content: center;
     align-items:center;
-    width:100%;
-    height:100%;
+    width: 100vw; 
+    height: 100vh;
+    margin-top:0px;
     z-index: 1;
     background-color: black;
     opacity:0.9;
-    margin:auto;
 }
 
 #CV_PDF{
@@ -257,7 +272,6 @@ label{
     border-radius: 10px;
     padding:10px;
     line-height:1.5;
-    box-sizing: border-box;
 }
 
 #projectStart{
@@ -284,7 +298,6 @@ label{
     border-radius: 10px;
     padding:10px;
     line-height:1.5;
-    box-sizing: border-box;
 }
 
 #educationStart{
