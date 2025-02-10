@@ -1,10 +1,15 @@
+
+/* change important words to bold but without background
+and experiment with colours
+and try change format a bit but dw too much about it*/
+
 *{
     font-family:monospace;
-    background-color:white;
-    color: #1B1B1C;
     transition: background-color 0.5s ease, color 0.5s ease;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     box-sizing: border-box;
+    color: #212529;
+    
 } 
 
 body, html {
@@ -16,14 +21,14 @@ a{
     font-size: 20px;
     text-decoration: none; 
     cursor:pointer;
-    background-color:white;
-    color: #1B1B1C;
+    background-color:#F8F9FA;
+    color: #212529;
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 #customA_h1{
     font-size: min(40px, 3.5vw);
-    color:white;
+    color:#F8F9FA;
     font-weight: bold;
     background-color: #47C7FC;
     border-color: #47C7FC;
@@ -35,12 +40,14 @@ a{
 #customA_text{
     font-size:1.7vw;
     text-decoration: underline;
+    background-color: #E9ECEF;
 
 }
 
 #customA_text_about{
     font-size: min(17px, 1.7vw);
     text-decoration: underline;
+    background-color: #E9ECEF;
 }
 
 
@@ -57,8 +64,8 @@ label{
 
 .margin{
     padding:80px;
+    gap:0px;
     height:100%;
-    margin-bottom: 10px;
 }
 
 .nav_container{
@@ -67,6 +74,7 @@ label{
     flex-grow: 1;
     width: 100%;
     position:fixed;
+    background-color:#F8F9FA;
     top:0;
     opacity: 0.9;
 }
@@ -91,11 +99,12 @@ label{
 .aboutMeNav{
     display: flex;
     justify-content:center;
+    background-color: #F8F9FA;
     height: 80px;
     width: 100%;  
     flex-grow:2;
     align-items: center;
-    gap: 20px;;
+    gap: 20px;
 }
 
 .login{
@@ -123,7 +132,7 @@ label{
     top: 70%; 
     display: none;
     left:0;
-    background-color:white;
+    background-color:#F8F9FA;
 }
 
 .titles{
@@ -134,13 +143,14 @@ label{
     font-size: 30px;
     height:5vh;
     border-radius: 10px;
+    background-color: #F8F9FA;
     gap:0px;
 }
 
 #contactButton{
     border: 1px solid #47C7FC;
     background-color: #47C7FC;
-    color: #FFFFFF;
+    color: #F8F9FA;
     border-radius:10px;
     padding:5px;
 }
@@ -151,7 +161,7 @@ label{
 }
 
 #standOutWords{
-    color:white;
+    color:#F8F9FA;
     font-weight: bold;
     background-color: #47C7FC;
     border-color: #47C7FC;
@@ -160,19 +170,38 @@ label{
 }
 
 .h1{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     width:auto;
+    height:auto;
     height:90vh;
-    justify-content: center;
-    align-items: center;
-    font-size: min(20px,1.7vw);
-    text-align: center;
-    padding:20px;
+    margin:0px;
+    gap:10px;
+    padding:10px;
+    
 }
 
-#h1Text{
-    margin-bottom:100px;
+#h1Hello{
+    width:100%;
+    line-height:1.5;
+    grid-column: 1/7;
+    font-size: max(55px,6vw);
+    grid-row : 1/4;
     
+}
+
+#h1Me{
+    grid-row: 4/5;
+    grid-column: 3/7;
+    font-size: 3vw;
+    text-align: end;
+}
+
+#h1Learn{
+    font-size:1.9vw;
+    grid-column: span 2;
+    grid-row: 5/6;
 }
 
 
@@ -193,7 +222,8 @@ label{
 .aboutMeContent {
     width: 100%;
     height: 100%; 
-    border: 1px solid #FF8000;
+    background-color: #E9ECEF;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
     display: flex;
     border-radius: 10px;
     align-items: center;
@@ -228,8 +258,8 @@ label{
     height: 100vh;
     margin-top:0px;
     z-index: 1;
-    background-color: black;
-    opacity:0.9;
+    background-color: #212529;
+    opacity:0.98;
 }
 
 #CV_PDF{
@@ -266,7 +296,8 @@ label{
 .projectContent {
     width: 100%;
     height: 100%; 
-    border: 1px solid #FF8000;
+    background-color: #E9ECEF;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
     display: flex;
     border-radius: 10px;
@@ -321,8 +352,9 @@ label{
     display:flex;
     flex-direction:column;
     width:80%;
-    height:100%;    
-    border: 1px solid #FF8000;
+    height:100%;
+    background-color:#E9ECEF; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);   
     border-radius:10px;
     
     
@@ -338,7 +370,7 @@ input[type=text] {
     height: 35px;
     margin: 10px;
     font-size:15px;
-    border: 1px solid #FF8000;
+    border: 1px solid #E9ECEF;
     border-radius:10px;
     text-indent:10px;
 }
@@ -348,7 +380,7 @@ input[type=email]{
     height: 36px;
     margin: 10px;
     font-size:15px;
-    border: 1px solid #FF8000;
+    border: 1px solid #E9ECEF;
     border-radius:10px;
     text-indent:10px;
 }
@@ -367,7 +399,8 @@ textarea {
     padding:10px;
     font-size:15px;
     border-radius:10px;
-    border: 1px solid #FF8000;
+    border: 1px solid #E9ECEF;
+    
 }
 
 a:hover{
