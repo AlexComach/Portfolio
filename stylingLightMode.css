@@ -6,24 +6,27 @@ and try change format a bit but dw too much about it*/
 *{
     font-family:monospace;
     transition: background-color 0.5s ease, color 0.5s ease;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     box-sizing: border-box;
     color: #212529;
-    
 } 
 
 body, html {
     margin: 0;
     padding: 0;
+    background-color: #F8F9FA;
 }
 
 a{  
     font-size: 20px;
     text-decoration: none; 
     cursor:pointer;
-    background-color:#F8F9FA;
     color: #212529;
     transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+b{
+    font-weight:bolder;
 }
 
 #customA_h1{
@@ -40,7 +43,6 @@ a{
 #customA_text{
     font-size:1.7vw;
     text-decoration: underline;
-    background-color: #E9ECEF;
 
 }
 
@@ -98,7 +100,7 @@ label{
 
 .aboutMeNav{
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
     background-color: #F8F9FA;
     height: 80px;
     width: 100%;  
@@ -110,6 +112,7 @@ label{
 .login{
     display:flex;
     justify-content:space-around;
+    background-color: #F8F9FA;
     align-items:center;
     width: 250px;
     flex-shrink:0;
@@ -119,6 +122,7 @@ label{
 .hiddenNav{
     display: none;
     justify-content:center;
+    background-color: #F8F9FA;
     height: 80px;
     width: 60px;  
     flex-grow:2;
@@ -172,36 +176,37 @@ label{
 .h1{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     width:auto;
     height:auto;
     height:90vh;
     margin:0px;
     gap:10px;
-    padding:10px;
-    
+    padding:10px;    
 }
 
 #h1Hello{
     width:100%;
-    line-height:1.5;
-    grid-column: 1/7;
-    font-size: max(55px,6vw);
-    grid-row : 1/4;
-    
+    align-content: flex-end;
+    height:100%;
+    line-height:1.2;
+    grid-column: span 6;
+    font-size: max(55px,7vw);
 }
 
 #h1Me{
-    grid-row: 4/5;
-    grid-column: 3/7;
-    font-size: 3vw;
-    text-align: end;
+    height:auto;
+    align-content:center;
+    grid-column: span 6;
+    font-size: max(28px, 3.5vw);
 }
 
 #h1Learn{
-    font-size:1.9vw;
-    grid-column: span 2;
-    grid-row: 5/6;
+    height:auto;
+    align-content:flex-start;
+    font-size: max(20px, 2.5vw);
+    grid-column: span 4;
+    grid-row:span 1;
 }
 
 
