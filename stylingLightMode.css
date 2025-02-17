@@ -33,21 +33,21 @@ b{
     font-size: min(40px, 3.5vw);
     color:#F8F9FA;
     font-weight: bold;
-    background-color: #47C7FC;
-    border-color: #47C7FC;
+    background-color: #1E90FF;
+    border-color: #1E90FF;
     white-space: pre;
     border-radius: 5px;
 }
 
 
 #customA_text{
-    font-size:1.7vw;
+    font-size: clamp(10px, 1.35vw, 22px);
     text-decoration: underline;
 
 }
 
 #customA_text_about{
-    font-size: min(17px, 1.7vw);
+    font-size: clamp(10px, 1.35vw, 18px);
     text-decoration: underline;
     background-color: #E9ECEF;
 }
@@ -152,8 +152,8 @@ label{
 }
 
 #contactButton{
-    border: 1px solid #47C7FC;
-    background-color: #47C7FC;
+    border: 1px solid #1E90FF;
+    background-color: #1E90FF;
     color: #F8F9FA;
     border-radius:10px;
     padding:5px;
@@ -165,11 +165,8 @@ label{
 }
 
 #standOutWords{
-    color:#F8F9FA;
+    color:#1E90FF;
     font-weight: bold;
-    background-color: #47C7FC;
-    border-color: #47C7FC;
-    white-space: pre;
     border-radius: 5px;
 }
 
@@ -218,7 +215,7 @@ label{
     height:auto;
     justify-content: center;
     align-items: center;
-    font-size: min(17px, 1.6vw);
+    font-size: clamp(10px, 1.35vw, 18px);
     text-align: center;
     padding:10px;
     gap:20px;
@@ -285,13 +282,13 @@ label{
 
 .project{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     width:auto;
     height:auto;
     justify-content: center;
     align-items: center;
-    font-size: 1.6vw;
+    font-size: max(10px, 1.35vw);
     text-align: center;
     padding:10px;
     gap:20px;
@@ -424,8 +421,8 @@ a:hover{
     cursor: pointer;
     top:-5px;
     border-radius:10px;
-    border: 1px solid #47C7FC;
-    background-color: #47C7FC;
+    border: 1px solid #1E90FF;
+    background-color: #1E90FF;
     color: #FFFFFF;
     
 
