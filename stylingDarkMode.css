@@ -266,6 +266,7 @@ label{
 
 #exitCV{
     display:block;
+    color:#212529;
     position:fixed;
     top:10px;
     right:10px;
