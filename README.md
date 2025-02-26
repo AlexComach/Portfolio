@@ -19,7 +19,7 @@ I would like to learn react or another front end framework so I can make my port
 
 ## Projects links:
 Take a look at these projects I have in my portfolio:<br><br>
-**Runescape Shopping Cart:** (https://github.com/AlexComach/Final-Project-Python)<br>
-**To Do List:** (https://github.com/AlexComach/To-Do-List)<br>
-**Expense Tracker:** (https://github.com/AlexComach/Expense-Tracker)<br>
+**Runescape Shopping Cart:** https://github.com/AlexComach/Final-Project-Python<br>
+**To Do List:** https://github.com/AlexComach/To-Do-List<br>
+**Expense Tracker:** https://github.com/AlexComach/Expense-Tracker<br>
 
