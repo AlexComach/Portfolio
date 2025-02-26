@@ -18,8 +18,8 @@ how DOM works on a more deeper level and also deepened my understanding the conc
 I would like to learn react or another front end framework so I can make my portfolio more interactive with cool features
 
 ## Projects links:
-Take a look at these projects I have in my portfolio:
-**Runescape Shopping Cart:** (https://github.com/AlexComach/Final-Project-Python)
-**To Do List:** (https://github.com/AlexComach/To-Do-List)
-**Expense Tracker:** (https://github.com/AlexComach/Expense-Tracker)
+Take a look at these projects I have in my portfolio:<br><br>
+**Runescape Shopping Cart:** (https://github.com/AlexComach/Final-Project-Python)<br>
+**To Do List:** (https://github.com/AlexComach/To-Do-List)<br>
+**Expense Tracker:** (https://github.com/AlexComach/Expense-Tracker)<br>
 
