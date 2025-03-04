@@ -8,6 +8,9 @@ This is my first ever project using HTML, CSS and JavaScript, so I decided to ma
 important words in a bluey colour, and for important buttons I've made stand out button in the same blue button colour with white text. I've also included smoothing scrolling between pages, dark mode
 and light mode, which I used 2 separate CSS style sheets for, and the resume section which allows you to either view the resume within the portfolio or download it as a PDF file. The contact form uses a tool
 called web3forms, which sends the inputs in the form to my email address. 
+ScreenShots below:
+![image alt]https://github.com/AlexComach/Portfolio/blob/ae6b1d2eca85c52d4ef15d26f7fa81d29f3508ed/README%20Screenshots/WebPortfolioAboutMe.png
+
 
 ## Lessons learned:
 My first every web dev project after learning HTML, CSS and JavaScript really helped me catapult my understanding of the technologies and programming in general. I have become vastly more comfortable with
