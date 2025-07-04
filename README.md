@@ -1,13 +1,20 @@
-# Website Portfolio
-I made this website portfolio so that I can showcase work that I'm doing and will be doing in the future. You can use it to contact me via email or contact form, my resume and fun features implemented
-with Javascript.
+# Portfolio Website
+A responsive portfolio website showcasing my development projects and skills.
 
-## How it's made
-**Tech used** HTML, CSS and JavaScript
-This is my first ever project using HTML, CSS and JavaScript, so I decided to make the design simple but clean. I used a lot of flexboxes and Grids for formatting the CSS. I also have coloured
-important words in a bluey colour, and for important buttons I've made stand out button in the same blue button colour with white text. I've also included smoothing scrolling between pages, dark mode
-and light mode, which I used 2 separate CSS style sheets for, and the resume section which allows you to either view the resume within the portfolio or download it as a PDF file. The contact form uses a tool
-called web3forms, which sends the inputs in the form to my email address. 
+## Features
+- Dark/Light mode toggle
+- Smooth scrolling navigation
+- Contact form integration
+- Resume viewer/download
+- Responsive design
+
+## Tech Stack
+- HTML5
+- CSS3 (Flexbox, Grid)
+- Vanilla JavaScript
+- Web3Forms API
+
+
 ScreenShots below:<br>
 ![image alt](https://github.com/AlexComach/Portfolio/blob/d68a2454df86553a09c072bf4fa6044fccb72e2c/README%20Screenshots/WebPortfolioHomePage.png)<br>
 ![image alt](https://github.com/AlexComach/Portfolio/blob/d68a2454df86553a09c072bf4fa6044fccb72e2c/README%20Screenshots/WebPortfolioHomePageDark.png)<br>
